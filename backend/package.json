@@ -5,11 +5,14 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
-    "start-watch": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "chalk": "^4.0.0",
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
