@@ -20,5 +20,5 @@ module.exports.index = async (request, response) => {
     },
   });
 
-  return response.json({ devs });
+  return response.json(devs);
 };
